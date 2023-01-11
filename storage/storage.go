@@ -14,8 +14,8 @@ type Mutator interface {
 	Delete(key []byte) error
 }
 
-// Storage is the interface of a kv storage.
-type Storage interface {
+// RetrieverMutator is the interface of a kv storage.
+type RetrieverMutator interface {
 	Retriever
 	Mutator
 }
