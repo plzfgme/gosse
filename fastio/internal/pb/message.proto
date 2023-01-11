@@ -1,0 +1,20 @@
+syntax = "proto3";
+option go_package = "fastio/internal/pb";
+
+message FASTIOSigmaMapValue {
+  bytes st = 1;
+  uint64 c = 2;
+}
+
+message FASTIOIDList { repeated bytes ids = 1; }
+
+message FASTIOUpdateToken {
+  bytes u = 1;
+  bytes e = 2;
+}
+
+message FASTIOSearchToken {
+  bytes t_w = 1;
+  bytes k_w = 2;
+  uint64 c = 3;
+}
