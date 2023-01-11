@@ -1,2 +1,2 @@
 # gosse
-Searchable symmetric encryptions in Go
+Searchable Symmetric Encryption schemes in Go
