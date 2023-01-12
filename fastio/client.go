@@ -18,7 +18,7 @@ type ClientOptions struct {
 // NewClientOptions creates a new ClientOptions from a key.
 func NewClientOptions(key []byte) *ClientOptions {
 	return &ClientOptions{
-		key: key[:16],
+		key: key,
 	}
 }
 
